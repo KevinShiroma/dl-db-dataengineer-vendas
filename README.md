@@ -28,6 +28,11 @@ Durante o desenvolvimento deste projeto, aprendi conceitos importantes, incluind
 
 ## Como Executar o Projeto
 
+## Desenvolvimento
+Após o provisionamento do Databricks e a criação do DBFS , foi criado um notebook para colocar os dados de um CSV sobre um relatório de vendas na Landing Zone.
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/1.PNG)
+
+
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu_usuario/seu_repositorio.git
