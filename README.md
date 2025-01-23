@@ -50,10 +50,38 @@ Em seguida, podemos criar a tabela fato e suas dimensões para que possa ser cri
 ![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/5.PNG?raw=true)
 
 ### Power BI
-Com a camada Gold criada, nos conectamos com o Power BI e finalmente criar nosso dashboard, bem como a visualização dos dados para o relatório de vendas.<br>
+Com a camada Gold criada, nos conectamos com o Power BI e finalmente criar nosso dashboard, bem como a visualização dos dados para o relatório de vendas. <br>
 ![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/6.PNG?raw=true)
 
+## Como Executar o Projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu_usuario/seu_repositorio.git
+Siga os passos abaixo para executar o projeto:
+
+1. **Criar uma Conta no Databricks**:
+   - Acesse o site do [Databricks](https://www.databricks.com/try-databricks#account).
+   - Crie uma conta na Community Edition.
+
+2. **Importar os Notebooks do Repositório**:
+   - Crie um cluster em Compute.
+   - Após criar o cluster, acesse seu workspace.
+   - Crie uma pasta e importe os notebooks deste repositório.
+     
+4. **Rodar os Notebooks na Ordem**:
+   - Navegue até os notebooks importados no seu workspace.
+   - Execute os notebooks na ordem correta, conforme indicado na documentação do projeto, para garantir que os dados sejam processados corretamente.
+
+5. **Criar uma Conexão entre o Databricks e o Power BI**:
+   - No Power BI, clique em "Obter Dados" e selecione "Azure Databricks".
+   - Insira as informações necessárias, como o URL do seu workspace e as credenciais de acesso.
+
+6. **Criar a Visualização que Você Deseja**:
+   - Após estabelecer a conexão, você poderá importar os dados processados do Databricks para o Power BI.
+   - Utilize as ferramentas de visualização do Power BI para criar gráficos, tabelas e dashboards conforme sua necessidade.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou sugestões. Para isso, basta abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
