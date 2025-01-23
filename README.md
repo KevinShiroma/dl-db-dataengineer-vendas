@@ -1,6 +1,8 @@
 # Projeto de Ingestão de Dados com Databricks
 
-Este projeto foi desenvolvido para consolidar meus conhecimentos sobre Big Data e suas ferramentas, utilizando o Databricks como plataforma principal. O objetivo é criar um processo de ingestão de dados de ponta a ponta, culminando na visualização dos dados no Power BI.
+Este projeto foi desenvolvido para consolidar meus conhecimentos sobre Big Data e suas ferramentas, utilizando o Databricks como plataforma principal. O objetivo é criar um processo de ingestão de dados de ponta a ponta, finalizando na visualização dos dados no Power BI. <br>
+
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/7.PNG?raw=true)
 
 ## Objetivos do Projeto
 
@@ -26,11 +28,30 @@ Durante o desenvolvimento deste projeto, aprendi conceitos importantes, incluind
 - Delta Lake
 - Power BI
 
-## Como Executar o Projeto
-
 ## Desenvolvimento
-Após o provisionamento do Databricks e a criação do DBFS , foi criado um notebook para colocar os dados de um CSV sobre um relatório de vendas na Landing Zone.
-![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/1.PNG)
+
+### Landing Zone
+Após o provisionamento do Databricks e a criação do DBFS , foi criado um notebook para colocar os dados de um CSV sobre um relatório de vendas na Landing Zone.<br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/1.PNG?raw=true)
+
+### Camada Bronze
+Em seguida os dados foram colocados na camada bronze para persistir os dados.<br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/2.PNG?raw=true)
+
+E assim podemos visualizar o Dataframe criado.<br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/3.PNG?raw=true)
+
+### Camada Silver
+Com isso, podemos colocar nossos dados na camada Silver para realizar o tratamento dos dados.<br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/4.PNG?raw=true)
+
+### Camada Gold
+Em seguida, podemos criar a tabela fato e suas dimensões para que possa ser criado o dashboard. <br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/5.PNG?raw=true)
+
+### Power BI
+Com a camada Gold criada, nos conectamos com o Power BI e finalmente criar nosso dashboard, bem como a visualização dos dados para o relatório de vendas.<br>
+![Trazendo os dados CSV](https://github.com/KevinShiroma/dl-db-dataengineer-vendas/blob/main/img/6.PNG?raw=true)
 
 
 1. Clone este repositório:
